@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The **Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL)** program is a **virtual training and mentoring initiative** led by **Toluwase Fatoki** and powered by **Heze-Sapience International, Nigeria**.
+The **Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL)** program is a **virtual training and mentoring initiative** led by **Toluwase Fatoki** and powered by **Heze-Sapience International**.
 
 GABRIEL is designed to **empower hundreds of new graduates** in the life sciences and related disciplines by equipping them with **applied bioinformatics research skills, computational methods, and experiential learning opportunities**.
 
@@ -79,6 +79,12 @@ pip install flask requests
 * Selected mentees will be notified and receive program instructions.
 * Attend 12 weeks of virtual training via zoom.
 * Participate in cohort final research project.
+  
+---
+
+## Potential Benefits
+
+* Receive GABRIEL e-Book
 * Receive certificate of program completion.
 * Receive one-time support for graduate admission application fee.
 
