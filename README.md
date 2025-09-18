@@ -84,25 +84,26 @@ pip install flask requests
 
 ## Potential Benefits
 
-* Receive GABRIEL e-Book
-* Receive certificate of program completion.
-* Receive one-time support for graduate admission application fee.
+* All applicants will receive GABRIEL e-Book by Toluwase H. Fatoki
+* Accomplished candidtates will receive certificate of program completion.
+* Aspiring candidates will receive recommendation letter for admission application upon request.
+* Receive application fee support for MSc. Applied Bioinformatics program in Nigeria.
 
 ---
 
 ## Application submission Deadline
 
-* Application closes December 20th every year
+* Application closes December 20th, 2026
 
 ---
 
-## 🙌 About the Program Lead
+## About the Program Lead
 
 **Toluwase Fatoki** is an applied bioinformatics researcher and mentor passionate about training the next generation of scientists across Africa and beyond. Through **Heze-Sapience International**, he leads initiatives like GABRIEL to bridge the gap between formal education and applied, hands-on research experiences.
 
 ---
 
-## 📜 License
+## License
 
 This repository and its contents are intended solely for the GABRIEL mentorship program. Redistribution or modification without written permission is not allowed.
 
