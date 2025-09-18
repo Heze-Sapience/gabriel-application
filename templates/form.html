@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Applied Bioinformatics Mentorship Form</title>
+</head>
+<body>
+<h2>Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL) Scholars Program</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul>
+    {% for category, msg in messages %}
+      <li style="color:red">{{ msg }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<form method="POST">
+
+<!-- Hidden fields for authorization token and tracking ID -->
+<input type="hidden" name="auth_token" value="{{ A_T }}">
+<input type="hidden" name="Tracking ID" value="{{ tracking_id if tracking_id else '' }}">
+
+{% for item in form %}
+    <label><b>{{ item['title'] }}</b></label><br>
+    {% set key = item['title'] %}
+    {% set question = item['questionItem']['question'] %}
+
+    {% if key == "Age" %}
+        <input type="number" name="Age" min="1" value="{{ values.get('Age','') }}" required><br><br>
+
+    {% elif key == "Gender" %}
+        <select name="Gender" required>
+            <option value="">--Select Gender--</option>
+            <option value="Male" {% if values.get('Gender')=='Male' %}selected{% endif %}>Male</option>
+            <option value="Female" {% if values.get('Gender')=='Female' %}selected{% endif %}>Female</option>
+        </select><br><br>
+
+    {% elif question.get('textQuestion') %}
+        {% if question['textQuestion']['paragraph'] %}
+            <textarea name="{{ key }}" rows="4" cols="70" required>{{ values.get(key,'') }}</textarea><br><br>
+        {% else %}
+            <input type="text" name="{{ key }}" size="70" value="{{ values.get(key,'') }}" required><br><br>
+        {% endif %}
+
+    {% elif question.get('choiceQuestion') %}
+        {% set choice_q = question['choiceQuestion'] %}
+        {% for option in choice_q.get('options', []) %}
+            <input type="radio" name="{{ key }}" value="{{ option['value'] }}"
+                {% if values.get(key) == option['value'] %} checked {% endif %} required>
+            {{ option['value'] }}<br>
+        {% endfor %}
+        <br>
+    {% endif %}
+{% endfor %}
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

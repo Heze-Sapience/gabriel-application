@@ -1,0 +1,144 @@
+{
+  "info": {
+    "title": "Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL) Scholars program (Nigeria)",
+    "documentTitle": "Applied Bioinformatics Mentorship Form",
+    "description": "We are recruiting motivated Nigerian graduates for a mentorship and applied bioinformatics training program.\n\n- 12 successful applicants will be selected.\n- Selected mentees will be mentored and trained in computational biology skills.\n- The program will culminate in a research project and manuscript publication.\n\nEligibility:\n- Nigerian graduate (any bioscience-related field preferred).\n- Interest in computational biology / bioinformatics.\n- Commitment to completing the mentorship and research project."
+  },
+  "items": [
+    {
+      "title": "Full Name",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Email Address",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "WhatsApp Number",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "University Attended",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Year of Graduation",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Age",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Gender",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "choiceQuestion": {
+            "type": "DROPDOWN",
+            "options": [
+              {"value": "Male"},
+              {"value": "Female"},
+              {"value": "Other"}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "title": "List of Computational/Bioinformatics Publications (if any)",
+      "questionItem": {
+        "question": {
+          "required": false,
+          "textQuestion": {
+            "paragraph": true
+          }
+        }
+      }
+    },
+    {
+      "title": "Statement of Interest: Why do you want to join this mentorship program? (max. 200 words)",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "textQuestion": {
+            "paragraph": true
+          }
+        }
+      }
+    },
+    {
+      "title": "Current Level of Bioinformatics Knowledge",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "choiceQuestion": {
+            "type": "RADIO",
+            "options": [
+              {"value": "Beginner (no prior training)"},
+              {"value": "Intermediate (some training/short courses)"},
+              {"value": "Advanced (active research/analysis experience)"}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "title": "Are you able to commit to the mentorship, training sessions, and collaborative research project?",
+      "questionItem": {
+        "question": {
+          "required": true,
+          "choiceQuestion": {
+            "type": "RADIO",
+            "options": [
+              {"value": "Yes"},
+              {"value": "No"}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

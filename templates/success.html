@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Submission Success</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 40px;
+    }
+    h2 {
+        color: #2E7D32;
+    }
+    p {
+        margin: 10px 0;
+    }
+    .tracking-id {
+        font-size: 1.2em;
+        color: #D32F2F;
+        font-weight: bold;
+    }
+    .print-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #2E7D32;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+    .print-btn:hover {
+        background-color: #1B5E20;
+    }
+</style>
+</head>
+<body>
+<h2>Thank you for your submission!</h2>
+
+<p>Your <strong>tracking ID</strong> is: <span class="tracking-id">{{ tracking_id }}</span></p>
+<p>Please keep this ID safe as it will be required for all future correspondence regarding your application.</p>
+
+<p>Send your Bachelor’s degree certificate and CV as a single file named with your tracking ID (for example, <em>Hezekiah_20250916110218_BSc_CV</em>) by replying to the submission email you received.</p>
+
+<p>We recommend saving this tracking ID in a secure place for your records.</p>
+
+<button class="print-btn" onclick="window.print()">Print / Save</button>
+
+</body>
+</html>
