@@ -84,9 +84,9 @@ pip install flask requests
 
 ## Potential Benefits
 
-* All applicants will receive GABRIEL e-Book by Toluwase H. Fatoki
-* Accomplished candidtates will receive certificate of program completion.
-* Aspiring candidates will receive recommendation letter for admission application upon request.
+* Receive GABRIEL e-Book by Toluwase H. Fatoki
+* Receive certificate of program completion.
+* Receive recommendation letter for admission application upon request.
 * Receive application fee support for MSc. Applied Bioinformatics program in Nigeria.
 
 ---
