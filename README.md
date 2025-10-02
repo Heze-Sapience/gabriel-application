@@ -93,7 +93,7 @@ pip install flask requests
 
 ## Application Eligibility and Deadline
 
-* Eligibility:  Graduate from ALL COUNTRIES are eligible to apply.
+* Eligibility:  Graduates from **ALL COUNTRIES** are eligible to apply.
 * Deadline:    **January 30th, 2026**
 
 ---
