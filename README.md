@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The **Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL)** program is a **virtual training and mentoring initiative** led by **Toluwase Fatoki** and powered by **Heze-Sapience International**.
+The **Graduate Applied Bioinformatics Research Innovations and Experiential Learning (GABRIEL)** program is a **virtual training and mentoring initiative** led by **Toluwase Fatoki**.
 
 GABRIEL is designed to **empower hundreds of new graduates** in the life sciences and related disciplines by equipping them with **applied bioinformatics research skills, computational methods, and experiential learning opportunities**.
 
@@ -75,31 +75,32 @@ pip install flask requests
 ## What Happens After Submission?
 
 * Your application will be logged automatically in the program’s secure database.
-* The selection team will review all submissions.
+* All submissions will be reviewed.
 * Selected mentees will be notified and receive program instructions.
-* Attend 12 weeks of virtual training via zoom.
+* Attend 12 weeks of virtual training.
 * Participate in cohort final research project.
   
 ---
 
 ## Potential Benefits
 
-* Receive GABRIEL e-Book by Toluwase H. Fatoki
+* Receive GABRIEL e-Book.
 * Receive certificate of program completion.
-* Receive recommendation letter for admission application upon request.
-* Receive application fee support for MSc. Applied Bioinformatics program in Nigeria.
+* Receive recommendation letters.
+* Receive future opportunities in GABRIEL community.
 
 ---
 
-## Application submission Deadline
+## Application Eligibility and Deadline
 
-* Application closes December 20th, 2026
+* Eligibility:  Graduate from ALL COUNTRIES are eligible to apply.
+* Deadline:    ** January 30th, 2026**
 
 ---
 
 ## About the Program Lead
 
-**Toluwase Fatoki** is an applied bioinformatics researcher and mentor passionate about training the next generation of scientists across Africa and beyond. Through **Heze-Sapience International**, he leads initiatives like GABRIEL to bridge the gap between formal education and applied, hands-on research experiences.
+**Toluwase Fatoki** is an applied bioinformatics researcher and mentor passionate about training the next generation of scientists across Africa and beyond. He leads initiatives like GABRIEL to bridge the gap between formal education and applied, hands-on research experiences.
 
 ---
 
